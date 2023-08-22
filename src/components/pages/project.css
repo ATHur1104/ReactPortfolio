@@ -1,0 +1,12 @@
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 45%;
+    margin: 2vw;
+    size: fit-content;
+}
