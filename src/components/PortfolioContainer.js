@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import './PortfolioContainer.css';
 
 const PortfolioContainer = () => {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -28,13 +29,14 @@ const PortfolioContainer = () => {
     const drawParticles = () => {
       context.clearRect(0, 0, canvas.width, canvas.height);
 
-      context.fillStyle = 'black'; // Background color
+      context.fillStyle = 'black';
       context.fillRect(0, 0, canvas.width, canvas.height);
 
       const colors = ['green', 'pink', 'red', 'orange', 'yellow', 'blue', 'purple', 'white'];
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
-      context.fillStyle = randomColor; // Particle color
+      context.fillStyle = randomColor;
+
       particles.forEach((particle) => {
         context.fillRect(particle.x, particle.y, particle.size, particle.size);
         particle.y += particle.speed;
@@ -48,17 +50,16 @@ const PortfolioContainer = () => {
       requestAnimationFrame(drawParticles);
     };
 
-    drawParticles(); // Start the animation loop
-
-    // Event listener for window resize
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
     };
 
     window.addEventListener('resize', handleResize);
+    handleResize();
 
-    // Cleanup event listener
+    drawParticles();
+
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -81,8 +82,14 @@ const PortfolioContainer = () => {
 
   return (
     <div style={{ position: 'relative' }}>
-      <canvas ref={canvasRef} width={window.innerWidth} height={window.innerHeight} style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }} />
+      <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, zIndex: -1 }} />
+      <style>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap');
+        `}
+      </style>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+
       <div className='page'>
         {renderPage()}
       </div>

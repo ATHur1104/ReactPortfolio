@@ -1,0 +1,11 @@
+
+ul {
+    font-size: 1.5rem;
+    font-weight: bold ;
+    width: 97vw;
+    align-content: center;
+}
+
+a.nav-link {
+ color: green;
+}

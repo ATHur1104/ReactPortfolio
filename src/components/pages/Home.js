@@ -5,17 +5,35 @@ export default function Home() {
     <div>
       <h1>Home Page</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        Things to add
       </p>
+      
+        <ul>Home
+          <li>My name</li>
+          <li>My title</li>
+          <li>Profile Picture</li>
+        </ul>
+        <ul>About Me
+          <li>Bio highlighting background, interests and passions</li>
+          <li>Relevant skills, technologies and tools i am proficient in</li>
+          <li>experiences</li>
+        </ul>
+        <ul>Projects
+          <li>project title and description</li>
+          <li>project goals and objectives</li>
+          <li>technologies and tools used</li>
+          <li>images/videos of working product</li>
+          <li>deployed page/repo link</li>
+        </ul>
+        <ul>Contact Me
+          <li>email</li>
+          <li>phone number</li>
+          <li>linkedin profile</li>
+        </ul>
+        <ul>Resume
+          <li>should be a link to my current resume</li>
+        </ul>
+      
     </div>
   );
 }

@@ -1,3 +1,7 @@
+body {
+    display: flex;
+}
+
 .container {
     display: inline-flex;
     flex-wrap: wrap;
@@ -6,7 +10,22 @@
 }
 
 .card {
-    width: 45%;
+    --bs-body-bg: #dbcbd8;
+    background-image: linear-gradient(280deg, #dbcbd8 0%, #2e4057 74%);;
+    width: 90%;
     margin: 2vw;
     size: fit-content;
+    box-shadow: inset 0 0 10px black;
+}
+
+p {
+    font-size: 2.5vw;;    
+}
+
+h2 {
+ color: white !important;
+}
+
+h3 {
+    color: white !important;
 }
