@@ -11,6 +11,7 @@ div.page {
 body {
   display: inline-flex;
   align-content: center;
+  width: fit-content;
 }
 
 .root {

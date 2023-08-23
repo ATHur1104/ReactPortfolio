@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavTabs.css';
+import Resume from "./resume/MyResume.docx"
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -45,6 +46,13 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
+        </a>
+      </li>
+      <li className="nav-item, nav-link">
+        <a
+          href={Resume} download={true}
+        >
+          Resume
         </a>
       </li>
     </ul>

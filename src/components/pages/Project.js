@@ -16,8 +16,16 @@ const handleSoggyGroggPlay = () => {
 export default function Project() {
 
   return (
-
     <div className='container'>
+      <div>
+      <ul>Projects
+          <li>project title and description</li>
+          <li>project goals and objectives</li>
+          <li>technologies and tools used</li>
+          <li>images/videos of working product</li>
+          <li>deployed page/repo link</li>
+        </ul>
+      </div>
       <h1>My Projects</h1>
       <div className="card">
         <h2>Soggy Grogg and the Wondrous Bog</h2>
