@@ -80,6 +80,10 @@ const PortfolioContainer = () => {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+  const handleResumeClick = () => {
+    
+  }
+
   return (
     <div style={{ position: 'relative' }}>
       <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, zIndex: -1 }} />
