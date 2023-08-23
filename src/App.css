@@ -8,10 +8,6 @@ div.page {
   color: white;
 }
 
-a {
-  text-decoration: none !important;
-}
-
 body {
   display: inline-flex;
   align-content: center;
