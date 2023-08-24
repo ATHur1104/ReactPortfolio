@@ -9,15 +9,21 @@ div.page {
 }
 
 body {
-  display: inline-flex;
+  display: flex;
   align-content: center;
   width: fit-content;
+  margin: 0;
+  padding: 0;
 }
 
 .root {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
+}
+
+html {
+  margin: 0;
+  padding-left: 2vw;
 }

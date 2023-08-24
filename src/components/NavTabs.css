@@ -10,4 +10,10 @@ a.nav-link {
 
 a.nav-link.active {
  color: black !important;
+ border-radius: 30px !important;
+}
+
+.nav-tabs {
+    --bs-border-style: none !important;
+    --bs-border-width: 0px !important;
 }

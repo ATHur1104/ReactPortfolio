@@ -1,29 +1,21 @@
 import React from 'react';
 import './Home.css';
+import { Andrew } from '../images';
 
 export default function Home() {
   return (
     <div className='container'>
-
-    <div className='home'>
-      <h1>Home Page</h1>
-      <p>
-        Things to add
-      </p>
-      
-        <ul>Home
-          <li>My name</li>
-          <li>My title</li>
-          <li>Profile Picture</li>
-        </ul>
-     
-       
-      
-        <ul>Resume
-          <li>should be a link to my current resume</li>
-        </ul>
-      
-    </div>
+      <ul className='home'>
+        <li className='text'>
+          <h3>Hi my name is Andrew Hur</h3>
+          <h3>I am a full stack web developer</h3>
+        </li>
+        <li className='image'>
+          <img src={Andrew} alt='My Profile Picture' style={{ border: ".5em solid grey", borderRadius: "50%" }} />
+        </li>
+      </ul>
+      <div className='home'>
+      </div>
     </div>
   );
 }
