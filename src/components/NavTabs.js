@@ -51,7 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href={Resume}
-          download="MyResume.docx"
+          download="AndrewHurResume.docx"
           className="nav-link"
           style={{ textDecoration: '{none}' }}
         >

@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
 import './PortfolioContainer.css';
 
 const PortfolioContainer = () => {
@@ -81,7 +83,7 @@ const PortfolioContainer = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   const handleResumeClick = () => {
-    
+
   }
 
   return (
@@ -92,11 +94,14 @@ const PortfolioContainer = () => {
           @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap');
         `}
       </style>
+      <Header />
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
 
       <div className='page'>
         {renderPage()}
       </div>
+
+      <Footer />
     </div>
   );
 };
