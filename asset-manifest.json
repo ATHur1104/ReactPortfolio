@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d5073e5.css",
+    "main.js": "/static/js/main.d7b19340.js",
+    "static/media/andrew.jpg": "/static/media/andrew.9835ae8acf0ab5f537bb.jpg",
+    "static/media/SoggyGrogg.jpg": "/static/media/SoggyGrogg.43c483bed3ccefee4c8d.jpg",
+    "static/media/MyResume.docx": "/static/media/MyResume.6070fd4c43046369435f.docx",
+    "index.html": "/index.html",
+    "main.4d5073e5.css.map": "/static/css/main.4d5073e5.css.map",
+    "main.d7b19340.js.map": "/static/js/main.d7b19340.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d5073e5.css",
+    "static/js/main.d7b19340.js"
+  ]
+}
