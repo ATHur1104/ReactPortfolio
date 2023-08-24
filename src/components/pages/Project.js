@@ -17,21 +17,12 @@ export default function Project() {
 
   return (
     <div className='container'>
-      <div>
-      <ul>Projects
-          <li>project title and description</li>
-          <li>project goals and objectives</li>
-          <li>technologies and tools used</li>
-          <li>images/videos of working product</li>
-          <li>deployed page/repo link</li>
-        </ul>
-      </div>
-      <h1>My Projects</h1>
+        <h1>My Projects</h1>
       <div className="card">
         <h2>Soggy Grogg and the Wondrous Bog</h2>
         <img src={SoggyGrogg} alt='Image of the title page of my first game' width="100%" height="100%" />
         <h3>
-          My first game! In this game you play as an adventurer to fight randomly generated monsters that were populated using the DND 5e API. The game is made using HTML, CSS, and Javascript.
+          My first game I made with a team! In this game you play as an adventurer to fight randomly generated monsters that were populated using the DND 5e API. The game is made using HTML, CSS, and Javascript.
         </h3>
         <button style={styles} onClick={handleSoggyGroggGithub}>GitHub Repo</button>
         <button style={styles} onClick={handleSoggyGroggPlay}>Play The Game!</button>
