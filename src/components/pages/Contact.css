@@ -4,10 +4,10 @@ div.container {
 }
 
 a.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
+    display: inline-block;
     margin-left: 3em;
+    margin-top: 2em;
+    text-decoration: none;
 }
 
 h1 {
