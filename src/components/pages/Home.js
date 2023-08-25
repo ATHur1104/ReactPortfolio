@@ -11,7 +11,7 @@ export default function Home() {
           <h3>I am a full stack web developer</h3>
         </li>
         <li className='image'>
-          <img src={Andrew} alt='My Profile Picture' style={{ border: ".5em solid grey", borderRadius: "50%" }} />
+          <img src={Andrew} alt='My Profile Picture' style={{ border: ".5em transparent", borderRadius: "50%" }} />
         </li>
       </ul>
       <div className='home'>
