@@ -8,6 +8,7 @@ a.contact {
     margin-left: 3em;
     margin-top: 2em;
     text-decoration: none;
+    max-width: fit-content;
 }
 
 h1 {
