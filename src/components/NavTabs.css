@@ -2,10 +2,11 @@ ul {
     font-size: 1.5rem;
     font-weight: bold ;
     flex:1;
+    justify-content: center;
 }
 
 a.nav-link {
- color: white;
+ color: white !important;
 }
 
 a.nav-link.active {

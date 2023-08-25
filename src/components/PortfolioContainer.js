@@ -17,6 +17,9 @@ const PortfolioContainer = () => {
     const canvas = canvasRef.current;
     const context = canvas.getContext('2d');
 
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    
     const particles = [];
     for (let i = 0; i < 100; i++) {
       particles.push({

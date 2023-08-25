@@ -26,4 +26,11 @@ li.image {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    resize: both;
+}
+
+li.image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
